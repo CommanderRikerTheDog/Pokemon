@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Download and install Docker desktop
-- Download and install a sql client application; I recommend dbeaver
+- Optional: Download and install a sql client application; I recommend dbeaver
 
 ## Getting Started
 ### Part 1. Clone the repo
@@ -24,7 +24,9 @@ git clone https://github.com/CommanderRikerTheDog/Pokemon.git
 docker-compose up -d --no-deps --build postgres
 ```
 
-### Part 3. Set up PostgreSQL connection in DBeaver
+### Part 3. Set up PostgreSQL connection in DBeaver (Optional)
+If you want a visual cue for the SQL work being done via the Python code, take this extra step. 
+
 For this section, you will reference the **docker-compose.yaml** file located inside the project. 
 - Launch DBeaver
 - Set up a new database connection
