@@ -30,12 +30,13 @@ legendary character varying
 cursor.execute(create_table_query)
 conn.commit()
 
+# COMMENT THIS OUT AFTER FIRST RN
 # Import CSV data: Once the code runs, comment this out.
 # TODO: Find ways to improve this in order to prevent duplicate data  import
-# with open('Pokemon.csv', 'r') as f:
-#    next(f)
-#    cursor.copy_from(f, 'pokemon', sep=',')
-#    conn.commit()
+with open('Pokemon.csv', 'r') as f:
+   next(f)
+   cursor.copy_from(f, 'pokemon', sep=',')
+   conn.commit()
 
 
 # Function to make cleaner code
