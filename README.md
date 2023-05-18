@@ -76,3 +76,6 @@ Question 2. Which Pokemon type has the highest average HP?
 Question 3. Which is the most common special attack?
 - Special Attack 60
 
+## Future Improvements
+1. Find a programmatic way to prevent duplicate data imports from the 'Pokemon.csv' file. In other words, prevent it from running multiple times when data already exists. 
+2. Explore ways to get this docker container to also contain 'main.py' script and run automatically as we compose the container up.
