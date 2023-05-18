@@ -24,6 +24,15 @@ git clone https://github.com/CommanderRikerTheDog/Pokemon.git
 docker-compose up -d --no-deps --build postgres
 ```
 
+Later, when you're all finished with the project, run this command to stop docker 
+```bash
+docker-compose down
+```
+OR this one to stop docker and remove the volume (essentially, the data associated with that container)
+```bash
+docker-compose down -v
+```
+
 ### Part 3. Set up PostgreSQL connection in DBeaver (Optional)
 If you want a visual cue for the SQL work being done via the Python code, take this extra step. 
 
